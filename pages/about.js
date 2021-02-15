@@ -1,6 +1,13 @@
+import Head from 'next/head'
+
 const About = () => {
   return (
-    <div>
+    <>
+     <Head>
+        <title>User List | About</title>
+        <meta name="keyword" content="users" />
+      </Head>
+      <div>
       <h1>About page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum libero
@@ -15,6 +22,8 @@ const About = () => {
         aliquid hic?
       </p>
     </div>
+    </>
+    
   )
 }
 

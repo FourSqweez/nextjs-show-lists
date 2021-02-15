@@ -10,23 +10,22 @@ a {
   font-size: 1.5rem;
 }
 
-nav a:hover {
-  color: #ffcb6b;
-  border-bottom: 1px solid #6ec1d6;
-}
 .content {
   max-width: 960px;
   margin: 0 auto;
 }
-.page-container p {
-  font-size: 1.5rem;
-  text-indent: 3rem;
-  font-style: italic;
+.page-container {
+  p {
+    font-size: 1.5rem;
+    text-indent: 3rem;
+    font-style: italic;
+  }
+
+  h1 {
+    color: #6ec1d6;
+  }
 }
 
-.page-container h1 {
-  color: #6ec1d6;
-}
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
@@ -34,14 +33,22 @@ nav {
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #caffb5;
+
+  a {
+    margin-left: 12px;
+
+    &:hover {
+      color: #ffcb6b;
+      border-bottom: 1px solid #6ec1d6;
+    }
+  }
+
+  .logo {
+    margin-right: auto;
+    font-size: 1rem;
+  }
 }
-nav a {
-  margin-left: 12px;
-}
-nav .logo {
-  margin-right: auto;
-  font-size: 1rem;
-}
+
 footer {
   display: block;
   text-align: center;
@@ -53,10 +60,19 @@ footer {
 
 .not-found {
   text-align: center;
+
+  a {
+    color: #ffcb6b;
+    text-decoration: underline;
+    font-style: normal;
+  }
 }
 
-.not-found a {
-  color: #ffcb6b;
-  text-decoration: underline;
-  font-style: normal;
+.logo {
+  a {
+    &:hover {
+      border-bottom: none;
+      cursor: default;
+    }
+  }
 }
