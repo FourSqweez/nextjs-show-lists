@@ -10,9 +10,9 @@ a {
   font-size: 1.5rem;
 }
 
-a:hover {
+nav a:hover {
   color: #ffcb6b;
-  border-bottom: 1px solid #6EC1D6;
+  border-bottom: 1px solid #6ec1d6;
 }
 .content {
   max-width: 960px;
@@ -49,4 +49,14 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #caffb5;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #ffcb6b;
+  text-decoration: underline;
+  font-style: normal;
 }
