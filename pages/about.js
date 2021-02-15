@@ -1,13 +1,7 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Footer from '../comps/Footer'
-import Navbar from '../comps/Navbar'
-import styles from '../styles/Home.module.css'
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <h1>Homepage</h1>
+      <h1>About page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum libero
         esse perferendis veritatis fugiat magnam debitis veniam impedit
@@ -20,9 +14,8 @@ export default function Home() {
         similique odit laudantium dolor adipisci consequuntur eos nam est nisi,
         aliquid hic?
       </p>
-      <Link href="/users">
-        <a>See Users Listing</a>
-      </Link>
     </div>
   )
 }
+
+export default About
