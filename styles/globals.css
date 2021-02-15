@@ -1,17 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
 body {
   background: #212b38;
-  color: #F8F8F2;
-  font-family: 'Nunito';
+  color: #f8f8f2;
+  font-family: 'Athiti';
 }
 a {
-  color: #F692B2;
+  color: #f692b2;
   text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #ffcb6b;
+  border-bottom: 1px solid #6EC1D6;
 }
 .content {
   max-width: 960px;
   margin: 0 auto;
+}
+.page-container p {
+  font-size: 1.5rem;
+  text-indent: 3rem;
+  font-style: italic;
+}
+
+.page-container h1 {
+  color: #6ec1d6;
 }
 nav {
   margin: 10px auto 80px;
@@ -26,6 +40,7 @@ nav a {
 }
 nav .logo {
   margin-right: auto;
+  font-size: 1rem;
 }
 footer {
   display: block;
